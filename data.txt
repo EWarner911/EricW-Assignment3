@@ -1,0 +1,18 @@
+type in user name
+
+john.doe@mydomain.net
+loops thru list till fines username
+
+enter PW...
+loops thru same row to find PS..
+if not 
+
+goes to next line. then goes thru that line for PW.
+
+repeats till null....
+
+
+test@email.com,passwordTest!1,Test User
+another@user.com,asdfasdf,Another User
+john.doe@mydomain.net,Hdk398jf!,John Doe
+jane.doe@myotherdomain.com,sunrise-sunset,Jane Doe
