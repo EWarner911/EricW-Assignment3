@@ -5,12 +5,17 @@ public class User
 	private String userName;
 	private String passWord;
 	private String fullName;
-	private String failedLogins;
 	
 	
 	
 	
 	
+	
+	
+	@Override
+	public String toString() {
+		return "User [userName=" + userName + ", passWord=" + passWord + ", fullName=" + fullName + "]";
+	}
 	public String getUserName() {
 		return userName;
 	}
