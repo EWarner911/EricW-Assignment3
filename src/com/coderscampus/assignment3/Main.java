@@ -34,7 +34,7 @@ public class Main {
 				User myUser = newUsers[i];
 
 				if (inputUser.equalsIgnoreCase(myUser.getUserName())
-						&& inputPass.equalsIgnoreCase(myUser.getPassWord())) {
+						&& inputPass.equals(myUser.getPassWord())) {
 					System.out.println("logged in " + myUser.getFullName());
 					loggedIN = true;
 					break;
